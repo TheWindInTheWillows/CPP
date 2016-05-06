@@ -16,7 +16,6 @@ int main()
 	WSADATA wsaData;
 	WSAStartup(MAKEWORD(2,2), &wsaData);
 
-
 	SOCKET server_socket = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);
 
 	sockaddr_in server_addr;
